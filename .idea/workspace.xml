@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb3ccc76-d0e1-46b1-aabb-fddbfa26e15c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/laravel-oauth/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-oauth/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-oauth/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-oauth/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/laravel-oauth/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-consumer/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+              <folding>
+                <element signature="e#391#413#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-consumer/app/Http/Controllers/TodoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-consumer/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoListComponent.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/assets/js/components/TodoListComponent.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8000</find>
+      <find>guzzle</find>
+      <find>resource</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/laravel-consumer/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/laravel-consumer/resources/views/todo.blade.php" />
+        <option value="$PROJECT_DIR$/laravel-oauth/database/migrations/2018_06_23_170757_create_todos_table.php" />
+        <option value="$PROJECT_DIR$/laravel-oauth/app/Todo.php" />
+        <option value="$PROJECT_DIR$/laravel-oauth/app/Http/Controllers/TodoController.php" />
+        <option value="$PROJECT_DIR$/laravel-oauth/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel-oauth/routes/api.php" />
+        <option value="$PROJECT_DIR$/laravel-consumer/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel-consumer/app/Http/Controllers/TodoController.php" />
+        <option value="$PROJECT_DIR$/laravel-consumer/routes/api.php" />
+        <option value="$PROJECT_DIR$/laravel-consumer/resources/assets/js/components/TodoListComponent.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/laravel-consumer/node_modules" />
+    <handled-path value="$PROJECT_DIR$/laravel-oauth/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/composer" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/league/event" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/laravel-oauth/vendor/fzaninotto/faker" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="979" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel-oauth-with-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-oauth-with-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-oauth-with-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-oauth-with-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-oauth-with-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-oauth-with-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-oauth-with-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-oauth-with-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel-oauth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-oauth-with-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-oauth-with-consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel-oauth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb3ccc76-d0e1-46b1-aabb-fddbfa26e15c" name="Default" comment="" />
+      <created>1529569997011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529569997011</updated>
+      <workItem from="1529570012330" duration="601000" />
+      <workItem from="1529570810465" duration="305000" />
+      <workItem from="1529571121675" duration="316000" />
+      <workItem from="1529769890277" duration="3517000" />
+      <workItem from="1529773559463" duration="2278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7017000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="979" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3403315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="e#391#413#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/app/Http/Controllers/TodoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/views/todo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/assets/js/components/TodoListComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" column="73" lean-forward="true" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/database/migrations/2018_06_23_170757_create_todos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/app/Todo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/views/todo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/app/Http/Resources/TodoResource.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-oauth/app/Http/Controllers/TodoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding>
+            <element signature="e#391#413#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/app/Http/Controllers/TodoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-consumer/resources/assets/js/components/TodoListComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
