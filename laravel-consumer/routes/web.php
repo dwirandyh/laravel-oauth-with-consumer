@@ -37,19 +37,11 @@ Route::get('/callback', function (Request $request) {
         ]
     ]);
 
-    session()->put('token', json_decode((string)$response->getBody(), true));
+    Session::put('token', json_decode((string)$response->getBody(), true));
 
     return redirect('/todos');
 });
 
-
-/*
-Route::get('/todos', function () {
-
-});
-*/
-
-Route::get('/todos', 'TodoController@index');
 
 Route::get('/refresh-token', function () {
     $client = new Client();
@@ -70,3 +62,8 @@ Route::get('/refresh-token', function () {
 
     return redirect()->back();
 });
+
+Route::get('/todos/all', 'TodoController@getTodoList');
+Route::get('/todos', 'TodoController@index');
+Route::post('/todos/delete/{id}', 'TodoController@delete');
+Route::post('/todos/add', 'TodoController@addTodo');

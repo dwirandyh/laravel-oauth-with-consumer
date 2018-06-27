@@ -47342,11 +47342,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            todoList: []
+            todoList: [],
+            textTodo: ''
         };
     },
     mounted: function mounted() {
@@ -47355,11 +47371,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     methods: {
         getTodo: function getTodo() {
-            alert('todo');
             var app = this;
-            axios.get('http://127.0.0.1:8001/api/todo').then(function (response) {
+            axios.get('http://127.0.0.1:8001/todos/all').then(function (response) {
                 app.todoList = response.data;
-                alert(response);
+            }).catch(function (error) {
+                alert(error);
+            });
+        },
+        deleteTodo: function deleteTodo(id) {
+            var app = this;
+            axios.post('http://127.0.0.1:8001/todos/delete/' + id).then(function (response) {
+                app.getTodo();
+            }).catch(function (error) {
+                alert(error);
+            });
+        },
+        addTodo: function addTodo() {
+            var app = this;
+            axios.post('http://127.0.0.1:8001/todos/add', {
+                'todo': app.textTodo
+            }).then(function (response) {
+                app.getTodo();
             }).catch(function (error) {
                 alert(error);
             });
@@ -47382,6 +47414,55 @@ var render = function() {
           _c("div", { staticClass: "card-header" }, [_vm._v("Todo List")]),
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-sm-12" }, [
+                _c("div", { staticClass: "form-group row" }, [
+                  _c("label", { staticClass: "col-sm-2 col-form-label" }, [
+                    _vm._v("New Todo")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-sm-8" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.textTodo,
+                          expression: "textTodo"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "text", placeholder: "type new todo" },
+                      domProps: { value: _vm.textTodo },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.textTodo = $event.target.value
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-sm-2" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-primary",
+                        on: {
+                          click: function($event) {
+                            _vm.addTodo()
+                          }
+                        }
+                      },
+                      [_vm._v("Add")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
             _c("table", { staticClass: "table table-bordered" }, [
               _vm._m(0),
               _vm._v(" "),
@@ -47393,7 +47474,21 @@ var render = function() {
                     _vm._v(" "),
                     _c("td", [_vm._v(_vm._s(todo.todo))]),
                     _vm._v(" "),
-                    _c("td")
+                    _c("td", [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-sm btn-danger",
+                          attrs: { href: "#" },
+                          on: {
+                            click: function($event) {
+                              _vm.deleteTodo(todo.id)
+                            }
+                          }
+                        },
+                        [_vm._v("Delete")]
+                      )
+                    ])
                   ])
                 })
               )

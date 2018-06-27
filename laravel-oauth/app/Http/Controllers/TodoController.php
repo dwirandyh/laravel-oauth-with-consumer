@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Todo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TodoController extends Controller
 {
@@ -14,7 +15,7 @@ class TodoController extends Controller
      */
     public function index()
     {
-        return Todo::all();
+        return Todo::all()->where('user_id', '=', Auth::id());
     }
 
     /**
@@ -24,7 +25,7 @@ class TodoController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -35,7 +36,12 @@ class TodoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $todo = Todo::create([
+            'todo' => $request->todo,
+            'user_id' => Auth::id()
+        ]);
+
+        return $todo;
     }
 
     /**
@@ -44,9 +50,9 @@ class TodoController extends Controller
      * @param  \App\Todo  $todo
      * @return \Illuminate\Http\Response
      */
-    public function show(Todo $todo)
+    public function show($id)
     {
-        //
+        return Todo::find($id)->where('user_id', '=', Auth::id());
     }
 
     /**
@@ -67,9 +73,13 @@ class TodoController extends Controller
      * @param  \App\Todo  $todo
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Todo $todo)
+    public function update(Request $request, $id)
     {
-        //
+        $todo = Todo::find($id)->where('user_id', '=', Auth::id());
+        $todo->todo = $request->input('todo');
+        $todo->update();
+
+        return $todo;
     }
 
     /**
@@ -78,8 +88,9 @@ class TodoController extends Controller
      * @param  \App\Todo  $todo
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Todo $todo)
+    public function destroy($id)
     {
-        //
+        Todo::find($id)->delete();
+        return response()->json(['status' => 'success']);
     }
 }
